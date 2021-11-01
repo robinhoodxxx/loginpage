@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf0f3;
+}
+
+.img{
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 200px;
+    width: 200px;
+
+border-radius: 50%;
+background-color: #ecf0f3;
+     box-shadow: 13px 13px 10px #cbced1, 
+     -13px -13px 15px #fff;
+}
+.img img{
+    height: 180px;
+    width: 180px;
+   text-align: center;
+}

@@ -1,0 +1,222 @@
+*{
+     margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+body{
+    background-image: linear-gradient(1.logoname);
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Josefin Sans',sans-serif;
+    overflow: hidden;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     background-color: #ecf0f3; 
+    
+
+
+}
+
+
+.login{
+    
+    width: 400px;
+    height: 600px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+     box-shadow: 13px 13px 20px #cbced1, 
+     -13px -13px 20px #fff;
+     
+     
+     
+    }
+    .logo,.logo img{
+   background-color: none;
+    position: relative;
+    padding: 2px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    
+     box-shadow: 10px 10px 15px #cbced1, 
+    -13px -13px 20px #fff; 
+     /* box-shadow: 13px 13px 20px #cbced1, 
+    -13px -13px 20px #fff;  */
+}
+.logo svg{
+    height: 100px;
+}
+.logoname{
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    letter-spacing: 2px;
+}
+.subname{
+    text-align: center;
+    color:black;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    font-size: 12px;
+
+}.box{
+    
+     width: 100%;
+    padding-top: 40px;
+      
+  
+    
+
+}
+.user,.pass{  
+    display: flex;
+    
+    margin-left: 15px;  
+
+    width: 300px;
+ margin-bottom: 25px;
+padding-left: 30px;
+border-radius: 10px;
+box-shadow: inset 8px 8px 8px #cbced1,inset -8px -8px 8px #fff;
+
+}
+
+.box input{
+    display: flex;
+    font-weight: bold;
+    width: 300px;
+    height: 40px;
+     margin-left: 10px;  
+ 
+     text-align: justify;
+     
+     
+    letter-spacing: 1px;
+    background: none;
+    border: none;
+    cursor: pointer;
+     outline: none;     
+    
+}
+    
+svg{
+    height: 22px;
+    margin-top: 12px;
+    margin-left: -15px;
+    color: rgb(128, 118, 118);
+    
+    
+}
+
+
+::placeholder{
+    
+    position: relative;
+    color: rgb(128, 118, 118);
+    top: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+
+
+   
+}.btn{
+    display: flex;
+    
+    justify-content: flex-end;
+     margin-top: -15px; 
+     
+
+
+
+
+}.check{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    margin-left: -150px;
+    margin-top: -20px;
+   
+}
+.check input{
+    display: flex;
+    height: 18px;
+   
+    
+
+}
+
+    
+  .btn a{
+     padding-left: 60px; 
+    margin-left: 0px;
+    color: rgb(114, 6, 177);
+    cursor: pointer;
+    
+    
+}   
+.button{
+    display: flex; 
+    margin-top: 20px;
+   
+    justify-content: center;
+}button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+     box-shadow: 8px 8px 10px #928d8d, 
+    -10px -10px 10px rgb(228, 225, 225);  
+    
+    font-size: 15px;
+    letter-spacing: 2px;
+     font-family: 'Roboto', sans-serif; 
+    color: whitesmoke;
+    font-weight: bold;
+    background-color:  rgba(0, 3, 156, 0.616);
+    cursor: pointer;
+}
+button:hover{
+    background-color:  rgba(24, 27, 189, 0.795);
+    color: rgb(255, 255, 255);
+    transition: .4s ;
+    
+}
+.btn a:hover{
+color: rgb(0, 0, 0);
+transition: .5s;
+/* list-style: none; */
+text-decoration: none; 
+
+}
+
+.sign{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.sign a{
+    margin-left: 10px;
+   
+}
+    .sign a:hover{
+
+        color: rgb(18, 0, 180); 
+        outline: none;
+        text-decoration: none;
+        transition: .5s;
+    }
+    
+
+    
+    
+    
+
+    
+    
