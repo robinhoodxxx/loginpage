@@ -1,0 +1,406 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    height: 100vh;
+    width: 100vw;
+   font-family: cursive;
+    background-color: transparent;
+    font-family: sans-serif;
+    overflow: hidden;
+    display: flex;
+     justify-content: center; 
+    align-items: center;
+  
+   
+}
+
+
+.boxes{
+    box-shadow: 8px 8px 5px #928d8d, 
+    -10px -10px 10px rgb(224, 219, 219); 
+    background-color: rgb(153, 96, 199);
+    font-family: sans-serif;
+    height: 600px;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+   
+}
+.box{
+    
+     height: 96.5%;
+     width: 98%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    
+}
+.leftbox{
+    position: relative;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+    background-color: rgb(204, 203, 219);
+    
+}
+
+
+.left_image{
+    height: 95%;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+ 
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.left_image .animation  {
+   
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+  
+    text-align: center;
+    
+}
+.logo{
+   display: flex;
+   background-color: rgb(255, 255, 255);
+   justify-content: flex-start;
+   align-items: center;
+  padding-top: 15px;
+   width: 50%;
+   height: 8%;
+
+}.logo img{
+    margin-left: 30px;
+   width: 30px;
+  
+}
+.logo h4{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+form{
+    position: relative;
+  background-color: aliceblue;
+ 
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0;
+}
+
+
+.formposition{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(253, 253, 253); */
+    height: 98%;
+    width: 75%;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 5px #928d8d, 
+    -5px -5px 10px rgb(224, 219, 219); */
+    
+}
+.form{
+   
+    
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   height: 100%;
+   width: 310px;
+}
+.msg{
+    width: 100%;
+    /* background-color: rgb(230, 90, 55); */
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:'Josefin Sans', sans-serif; ;
+}
+
+
+
+.avatar{
+    /* box-shadow: 5px 5px 5px #928d8d, 
+    -5px -5px 10px rgb(224, 219, 219); */
+    background-color: rgb(247, 242, 242);
+    margin-top: 20px;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   margin-left: 100px;
+}
+.avatar img{
+  text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.logintag{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    text-align: start;
+    height: 50px;
+   
+    margin-bottom: 10px; 
+}
+.logintag h2{
+    font-weight: 700; 
+    font-size: 1.7rem; 
+   margin-bottom: 10px;
+    
+}
+.logintag span{
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(56, 52, 52);
+}
+
+
+.user{
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+}
+.user h5{
+   align-items: center;
+}
+.username{
+    width: 100%;
+    text-align: center;
+}
+.user input{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+   letter-spacing: .3px;
+   
+    
+    padding-left: 35px;
+     border-style:double;
+    border-radius: 5px;
+    height:40px;
+    width: 100%;
+    outline: none;
+    
+}
+
+.mail_icon{
+    margin-top: -30px;
+    margin-left: 10px;
+   
+    height: 20px;
+    width: 20px;
+    
+}
+.emailerror{
+    height: 20px;
+  
+}
+.emailerror p{
+    padding-top: 10px;
+    height: 100%;
+    
+    text-align: end;
+    color: rgb(253, 1, 1);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+}
+::placeholder{
+    color: rgb(204, 194, 194);
+}
+.pass{
+    font-family: 'Josefin Sans', sans-serif;
+   height: 65px;
+   margin-top: 0px;
+    width: 100%;
+    
+}
+.password{
+    width: 100%;
+    text-align: center;
+}
+.pass input{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+   letter-spacing: .5px;
+    border-style:double;
+    padding-left: 35px;
+    border-radius: 5px;
+    height:40px;
+    width: 100%;
+    outline: none;
+    
+}
+.pass_icon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.pass img{
+    
+    height: 20px;
+    width: 20px;
+   
+    margin-top: -40px;
+    
+}
+.pass p{
+   
+    text-align: end;
+    color: red;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.forgot{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    height: 30px;
+    display: flex;
+   
+    align-items: center;
+    
+    
+}
+.forgot input {
+    margin-right: 10px;
+  
+}
+
+.forgot_password {
+   
+    
+   margin-left: 70px;
+    
+  
+}
+.forgot_password a{
+    text-decoration: none;
+    font-size: .85rem;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+
+
+.login{
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+}
+button{
+    font-family: 'Jost', sans-serif;
+    letter-spacing: .5px;
+    font-size: 18px;
+   color: aliceblue;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: rgb(51, 66, 204);
+    text-align: center;
+    height: 40px;
+    width: 140px;
+   outline: none;
+   border-style: none;
+    cursor: pointer;
+    box-shadow: 8px 8px 5px #928d8d, 
+    -10px -10px 10px rgb(224, 219, 219); 
+    transition: .3s;
+}
+button:hover{
+    background-color: rgb(42, 54, 219);
+    transition: .3s;
+}
+
+.signup{
+    font-family: 'Josefin Sans', sans-serif;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.signup a{
+    margin-left: 10px;
+    font-size: .9rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+@media screen and (max-width: 700px){
+body{
+    background-color: rgb(255, 255, 255);
+}
+.boxes{
+width: 100%;
+height: 100%;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+
+}
+.box{
+    width: 95%;
+height: 97%;
+background-color: rgb(255, 255, 255);
+}
+.leftbox{
+    height: 100%;
+    width: 0%;
+}
+form{
+    height: 100%;
+    width :100%;
+    border-radius: 5px;
+}
+.form{
+    width: 320px;
+    border-radius: 10px;
+}
+
+}
+@media screen and(max-width:3000px){
+    .form{
+        width: 100%;
+        background-color: black;
+    }
+}
+
