@@ -1,4 +1,4 @@
-var ar=[2,3,6,5,2,1,3,2,1,9,2,3]
+
 
 
 function Quick(){
@@ -25,13 +25,13 @@ function sort(low,high){
         while(arr[start]<pivot){
             div_update(divs[start],arr[start],yellow);
             div_update(divs[start],arr[start],black);
-            //div_update(divs[start],arr[start], green);
+            div_update(divs[start],arr[start], green);
             start++
         }
         while(arr[end]>pivot){
             div_update(divs[end],arr[end],yellow);
             div_update(divs[end],arr[end], black);
-           // div_update(divs[end],arr[end], green);
+            div_update(divs[end],arr[end], green);
             end--
         }
         if(start<=end){
